@@ -4,7 +4,7 @@ pipeline {
     stages {
         stage('Build') {
             steps {
-                git 'https://github.com/SmuhZ/Calculator-java.git'
+                git 'https://github.com/Immad4668/Calculator-java.git'
                 bat '.\\mvnw clean compile'
             }
         }
